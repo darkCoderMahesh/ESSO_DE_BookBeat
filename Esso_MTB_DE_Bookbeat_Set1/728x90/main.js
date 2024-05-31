@@ -79,11 +79,11 @@ function animate() {
   //   y: randomX(1),
   //   rotation: randomAngle(-1)
   // });
-  tl1.to(".shadow1", {autoAlpha:1},"+=0.5")
-  tl1.to(".shadow1", {autoAlpha:0})
+  
   tl1.to(".phone", 2, {top: 15, ease: Power2.easeInOut})
-  tl1.to(".reflection", 2, {y: 20, autoAlpha: 0, ease: Power2.easeInOut}, "-=2")
-  tl1.to(".shadow", 2, {autoAlpha: 0.4, ease: Power2.easeInOut}, "-=2")
+  // tl1.to(".reflection", 2, {y: 20, autoAlpha: 0, ease: Power2.easeInOut}, "-=2")
+  tl1.to(".shadow", 4, {autoAlpha: 0.4, ease: Power2.easeInOut}, "-=2")
+  tl1.to(".shadow1", 4, {autoAlpha: 0, ease: Power2.easeInOut}, "<")
 
   tl1.to(".copy1", 0.5, {autoAlpha: 1, ease: Power2.easeInOut}, "-=2")
   tl1.to(".copy1", 0.5, {autoAlpha: 0, ease: Power2.easeInOut}, "+=1.5")
