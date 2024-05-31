@@ -11,8 +11,8 @@ var phone = document.getElementsByClassName("phone");
 
 console.log(phone)
 
-var randomX = random(10, 20);
-var randomY = random(5, 10);
+var randomX = random(20, 10);
+var randomY = random(5, 7);
 var randomDelay = random(0, 1);
 var randomTime = random(3, 5);
 var randomTime2 = random(2, 5);
