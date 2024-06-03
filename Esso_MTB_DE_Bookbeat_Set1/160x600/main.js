@@ -11,12 +11,12 @@ var phone = document.getElementsByClassName("phone");
 
 console.log(phone)
 
-var randomX = random(20, 10);
+var randomX = random(20, 15);
 var randomY = random(5, 7);
 var randomDelay = random(0, 1);
-var randomTime = random(3, 5);
-var randomTime2 = random(2, 5);
-var randomAngle = random(8, 9);
+var randomTime = random(2, 3);
+var randomTime2 = random(2, 3);
+var randomAngle = random(12, 13);
 
 function rotate(target, direction) {
   
