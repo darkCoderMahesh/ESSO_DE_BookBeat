@@ -79,7 +79,7 @@ function animate() {
   //   y: randomX(1),
   //   rotation: randomAngle(-1)
   // });
-  tl1.to(".phone", 4, {top: 80, ease: Power2.easeInOut})
+  tl1.to(".phone", 2, {top: 80, ease: Power2.easeInOut})
   tl1.to(".reflection", 4, {y: 20, autoAlpha: 0, ease: Power2.easeInOut}, "-=4.5")
   tl1.to([".shadow"], 4, {autoAlpha: 0.4, ease: Power2.easeInOut}, "-=4")
   tl1.to(".shadow", 4, {autoAlpha: 0.4, ease: Power2.easeInOut}, "-=4")
